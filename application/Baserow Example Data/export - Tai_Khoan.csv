@@ -1,0 +1,7 @@
+﻿id,Name,Password,Roles,Email,Cong_Viec_Quan_Ly,Cong_Viec_Nguoi_Lam,Truong_Phong_Ban,Phong_Ban_Nhan_Vien_Phong_Ban
+1,Lê Cát Khánh,fithou123,Chủ,khanhlc04@gmail.com,,,,
+5,Lê Văn A,fithou123,Nhân Viên,lva@gmail.com,Dự Án I,,Phòng Kinh Doanh,
+17,Lê Văn B,fithou123,Nhân Viên,lvb@gmail.com,Dự Án 1 - Công Việc 1,,,Phòng Kinh Doanh
+45,Lê Văn C,fithou123,Nhân Viên,lvc@gmail.com,,Dự Án 1 - Công Việc 1,,Phòng Kinh Doanh
+46,Lê Văn D,fithou123,Nhân Viên,lvd@gmail.com,,,Phòng Kế Toán,
+47,Lê Văn E,fithou123,Nhân Viên,lve@gmail.com,,,,Phòng Kế Toán

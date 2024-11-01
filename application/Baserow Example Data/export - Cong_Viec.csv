@@ -1,0 +1,3 @@
+﻿id,Ten_Cong_Viec,Mo_Ta,Trang_Thai,Ngay_Bat_Dau,Ngay_Ket_Thuc,Ngay_Hoan_Thanh,Nguoi_Quan_Ly,Nguoi_Lam,Cong_Viec_Cha
+15,Dự Án I,<p>Mô Tả Công Việc 1</p>,Active,01/11/2024,01/12/2024,,Lê Văn A,,
+16,Dự Án 1 - Công Việc 1,<p>Mô Tả Công Việc 1 - Dự Án 1</p>,Active,01/11/2024,24/11/2024,,Lê Văn B,Lê Văn C,Dự Án I
