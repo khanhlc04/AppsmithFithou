@@ -1,3 +1,0 @@
-{
-	"Nguoi_Lam": {{functions.AddNguoiLam()}}
-}
