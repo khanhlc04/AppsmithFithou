@@ -16,7 +16,6 @@ Chào mừng bạn đến với hướng dẫn sử dụng ứng dụng của ch
 
 - Tài Khoản [Appsmith](https://appsmith.com/) đã được đăng ký và có không gian sẵn sàng sử dụng.
 - Tài khoản [Baserow](https://baserow.io/) đã đăng ký và có không gian làm việc sẵn sàng sử dụng.
-- File `appsmith_template.json` và các file CSV để import vào Baserow.
 
 ---
 
@@ -24,7 +23,7 @@ Chào mừng bạn đến với hướng dẫn sử dụng ứng dụng của ch
 
 1. Mở Appsmith và đăng nhập vào tài khoản của bạn.
 2. Ở trang Dashboard, chọn **Create New** > **Import Application**.
-3. Chọn file `AppsmithFithou.json` chúng tôi để ở thư mục `application` để upload vào Appsmith.
+3. Tải file `AppsmithFithou.json` chúng tôi để ở thư mục `application` để upload vào Appsmith.
 4. Sau khi import thành công, ứng dụng của bạn sẽ xuất hiện trong danh sách ứng dụng và sẵn sàng để sử dụng.
 
 ---
@@ -35,7 +34,7 @@ Chào mừng bạn đến với hướng dẫn sử dụng ứng dụng của ch
 2. Tạo một cơ sở dữ liệu mới trong Baserow (hoặc chọn một cơ sở dữ liệu hiện có).
 3. Trong cơ sở dữ liệu, tạo một bảng mới bằng cách import dữ liệu từ file CSV:
    - Chọn **Import Table**.
-   - Chọn file CSV chúng tôi để ở thư mục application và làm theo hướng dẫn để import dữ liệu vào Baserow.
+   - Tải file CSV chúng tôi để ở thư mục application và làm theo hướng dẫn để import dữ liệu vào Baserow.
 4. Lặp lại quá trình này cho từng file CSV để hoàn tất việc import dữ liệu.
 
 ---
