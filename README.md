@@ -70,10 +70,16 @@ Thông tin nhập:
   - Mật khẩu
 
 Thành công: Chuyển hướng người dùng đến bảng điều khiển.
+
 <img loading="lazy" src="./assets/img/TrangDangNhap.png " alt="Architecture" width="100%" height=600>
 ---
 
-### 2. Danh Sách Tài Khoản
+### 2. Trang Tổng Quan
+Trang Tổng Quan (Dashboard) là nơi cung cấp cái nhìn tổng thể về trạng thái công việc.
+
+<img loading="lazy" src="./assets/img/TrangTongQuan.png" alt="Architecture" width="100%" height=600>
+
+### 3. Danh Sách Tài Khoản
 
 Danh Sách Tài Khoản hiển thị tất cả các tài khoản đã đăng ký có quyền truy cập vào ứng dụng.
 
@@ -81,7 +87,7 @@ Mô tả: Chỉ có người dùng có quyền mới có thể xem danh sách c�
 
 <img loading="lazy" src="./assets/img/QuanLyTaiKhoan.png " alt="Architecture" width="100%" height=600>
 
-### 3. Thêm Tài Khoản
+### 4. Thêm Tài Khoản
 
 Chức năng Thêm Tài Khoản cho phép quản trị viên tạo tài khoản mới cho người dùng.
 
@@ -90,11 +96,11 @@ Thông tin nhập:
 Tên đăng nhập
 Vai trò: Chọn vai trò cho tài khoản (ví dụ: Chủ, Nhân viên).
 
-Thành công: Tài khoản mới sẽ xuất hiện trong Danh Sách Tài Khoản, mật khẩu sẽ được tự động khởi tạo là: fithou123.
+Thành công: Tài khoản mới sẽ xuất hiện trong Danh Sách Tài Khoản, mật khẩu sẽ được tự động khởi tạo là: `fithou123`.
 
 <img loading="lazy" src="./assets/img/ThemNguoiLam.png " alt="Architecture" width="100%" height=600>
 
-### 4. Danh Sách Dự Án và Công Việc
+### 5. Danh Sách Dự Án và Công Việc
 
 Danh Sách Dự Án và Công Việc hiển thị các công việc hiện tại cùng với trạng thái và người quản lý. 2 Trang này sẽ có cấu trúc tương tự nhau, tuy nhiên, trang Quản Lý Công Việc còn có thể sẽ xem được công việc người dùng quản lý và công việc người dùng đang tham gia
 
