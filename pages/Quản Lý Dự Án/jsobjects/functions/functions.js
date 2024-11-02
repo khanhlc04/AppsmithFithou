@@ -12,6 +12,7 @@ export default {
 
 		if(fetchAccount.Roles[0].value === "Chủ"){
 			fetchTask = await Get_Projects.run();
+			Button5.setVisibility(false);
 		} else {
 			fetchTask = await Get_Projects_Manager.run();
 			Button3.setVisibility(false);

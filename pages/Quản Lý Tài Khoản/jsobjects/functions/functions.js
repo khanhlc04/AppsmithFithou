@@ -11,6 +11,8 @@ export default {
 	
 	async getRole(){
 		const roles = await Get_All_Roles.run();
+		
+		const arr = [];
 
 		for(const item of roles.results){
 			const r = {
@@ -18,8 +20,10 @@ export default {
 				role: item.Role_Name
 			};
 
-			data.role.push(r);
+			arr.push(r);
 		}
+		
+		data.role = arr;
 	},
 
 	addAccount(){

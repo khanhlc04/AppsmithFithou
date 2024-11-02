@@ -31,7 +31,7 @@ export default {
 
 		const fetchAccount = await Get_Account_By_Id.run();
 
-		if(appsmith.store.idAccount !== data.task.Nguoi_Quan_Ly[0].id || fetchAccount.Roles[0].value === "Chủ"){
+		if(appsmith.store.idAccount !== data.task.Nguoi_Quan_Ly[0].id || fetchAccount.Roles[0].value !== "Chủ"){
 			Select2.setDisabled(true);
 		}
 	},
