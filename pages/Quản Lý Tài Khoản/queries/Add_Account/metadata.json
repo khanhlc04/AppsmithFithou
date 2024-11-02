@@ -21,7 +21,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "database/rows/table/520/",
+      "path": "database/rows/table/{{tableID.Tai_Khoan}}/",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -45,6 +45,9 @@
     "dynamicBindingPathList": [
       {
         "key": "body"
+      },
+      {
+        "key": "path"
       }
     ],
     "executeOnLoad": false,

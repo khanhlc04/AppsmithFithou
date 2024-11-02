@@ -4,6 +4,7 @@ export default {
 			navigateTo("Login");
 		} else{
 			const fetchAccount = await Get_Account_By_Id.run();
+			data.acc
 
 			if(fetchAccount.Roles[0].value !== "Chủ"){
 				Button3.setVisibility(false);

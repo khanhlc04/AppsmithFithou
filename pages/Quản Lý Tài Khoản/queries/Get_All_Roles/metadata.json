@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "database/rows/table/521/",
+      "path": "database/rows/table/{{tableID.Vai_Tro}}/",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -37,7 +37,11 @@
       "name": "Baserow API",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "path"
+      }
+    ],
     "executeOnLoad": false,
     "name": "Get_All_Roles",
     "pageId": "Quản Lý Tài Khoản",

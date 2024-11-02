@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "database/rows/table/522/{{data.task.Cong_Viec_Cha[0].id}}/",
+      "path": "database/rows/table/{{tableID.Cong_Viec}}/{{data.task.Cong_Viec_Cha[0].id}}/",
       "pluginSpecifiedTemplates": [
         {
           "value": true

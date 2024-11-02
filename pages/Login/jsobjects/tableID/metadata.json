@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "67165aec3c3bba37baf6cdcb_93a12976-c7ab-4b4d-b14c-e9695cb62c1d",
+  "id": "Login_tableID",
+  "unpublishedCollection": {
+    "name": "tableID",
+    "pageId": "Login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "Tai_Khoan",
+        "value": "520"
+      },
+      {
+        "name": "Vai_Tro",
+        "value": "521"
+      },
+      {
+        "name": "Cong_Viec",
+        "value": "522"
+      },
+      {
+        "name": "Phong_Ban",
+        "value": "523"
+      }
+    ]
+  }
+}

@@ -21,7 +21,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "database/rows/table/520/",
+      "path": "database/rows/table/{{tableID.Tai_Khoan}}/",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -47,6 +47,9 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [
+      {
+        "key": "path"
+      },
       {
         "key": "queryParameters[1].value"
       }

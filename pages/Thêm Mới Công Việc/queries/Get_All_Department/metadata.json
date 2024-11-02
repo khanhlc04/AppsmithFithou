@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "database/rows/table/523/",
+      "path": "database/rows/table/{{tableID.Phong_Ban}}/",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -37,7 +37,11 @@
       "name": "Baserow API",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "path"
+      }
+    ],
     "executeOnLoad": false,
     "name": "Get_All_Department",
     "pageId": "Thêm Mới Công Việc",

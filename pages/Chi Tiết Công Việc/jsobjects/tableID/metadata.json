@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "67165aec3c3bba37baf6cdcb_0a5b4f13-c027-45dd-b783-eb4949d74a28",
+  "id": "Chi Tiết Công Việc_tableID",
+  "unpublishedCollection": {
+    "name": "tableID",
+    "pageId": "Chi Tiết Công Việc",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "Tai_Khoan",
+        "value": "520"
+      },
+      {
+        "name": "Vai_Tro",
+        "value": "521"
+      },
+      {
+        "name": "Cong_Viec",
+        "value": "522"
+      },
+      {
+        "name": "Phong_Ban",
+        "value": "523"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "67165aec3c3bba37baf6cdcb_f0ba601a-a326-4115-ac6d-d4837f3485dd",
+  "id": "Quản Lý Tài Khoản_tableID",
+  "unpublishedCollection": {
+    "name": "tableID",
+    "pageId": "Quản Lý Tài Khoản",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "Tai_Khoan",
+        "value": "520"
+      },
+      {
+        "name": "Vai_Tro",
+        "value": "521"
+      },
+      {
+        "name": "Cong_Viec",
+        "value": "522"
+      },
+      {
+        "name": "Phong_Ban",
+        "value": "523"
+      }
+    ]
+  }
+}

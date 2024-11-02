@@ -16,7 +16,6 @@ export default {
 			fetchTask = await Get_Projects_Manager.run();
 			Button3.setVisibility(false);
 			Button1.setVisibility(false);
-			Button5.setVisibility(false);
 		}
 
 		data.tasks = fetchTask.results;

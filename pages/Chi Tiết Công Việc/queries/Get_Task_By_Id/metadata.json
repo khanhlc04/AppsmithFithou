@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "database/rows/table/522/{{appsmith.URL.queryParams.key}}/",
+      "path": "database/rows/table/{{tableID.Cong_Viec}}/{{appsmith.URL.queryParams.key}}/",
       "pluginSpecifiedTemplates": [
         {
           "value": true

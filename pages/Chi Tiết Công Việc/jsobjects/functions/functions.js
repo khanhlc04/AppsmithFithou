@@ -40,23 +40,23 @@ export default {
 		if(Select1.selectedOptionValue){
 			const arr = [];
 
-			const fetchManager = await Get_Manager.run();
-
-			if(fetchManager.results[0].id !== data.task.Nguoi_Quan_Ly[0].id && 
-				 fetchManager.results[0].id !== data.task_parent.Nguoi_Quan_Ly[0].id){
-				arr.push({
-					"label": fetchManager.results[0].Name + " - Trưởng Phòng",
-					"value": fetchManager.results[0].id
-				});
-			}
-
 			const fetchEmployee = await Get_Employee.run();
 
 			const existItem = [];
 			existItem.push(data.task.Nguoi_Quan_Ly[0].id);
+			existItem.push(data.task_parent.Nguoi_Quan_Ly[0].id);
 
 			for(const item of ListEmployee.listData){
 				existItem.push(item.id);
+			}
+			
+			const fetchManager = await Get_Manager.run();
+
+			if(!existItem.includes(fetchManager.results[0].id)){
+				arr.push({
+					"label": fetchManager.results[0].Name + " - Trưởng Phòng",
+					"value": fetchManager.results[0].id
+				});
 			}
 
 			for(const e of fetchEmployee.results){
@@ -78,7 +78,7 @@ export default {
 	AddNguoiLam(){
 		const arr = [];
 
-		for(const item of List1.listData){
+		for(const item of ListEmployee.listData){
 			arr.push(item.id);
 		}
 

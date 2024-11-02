@@ -1,5 +1,6 @@
 export default {
 	tasks:[],
 	tasks_manage:[],
-	list_data:[]
+	list_data:[],
+	account:[]
 }
