@@ -37,7 +37,7 @@ Trước khi tiến hành cài đặt backend server, máy của bạn cần ph�
 
 ### Xây dựng và chạy code
 1. Di chuyển tới thư mục server
-    ```
+    ```bash
     cd app/server
     ```
 1. Chạy câu lệnh sau
