@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 52,
   "shouldTruncate": false,
-  "text": "Ngày Dự Kiến: {{currentItem.Ngay_Bat_Dau}}",
+  "text": "Ngày Dự Kiến: {{currentItem.Ngay_Ket_Thuc}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "textStyle": "BODY",

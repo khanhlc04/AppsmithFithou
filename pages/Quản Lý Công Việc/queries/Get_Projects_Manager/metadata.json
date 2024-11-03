@@ -30,6 +30,10 @@
         {
           "key": "filter__Nguoi_Quan_Ly__link_row_has",
           "value": "{{appsmith.store.idAccount}}"
+        },
+        {
+          "key": "filter__Cong_Viec_Cha__not_empty",
+          "value": ""
         }
       ],
       "timeoutInMillisecond": 10000
