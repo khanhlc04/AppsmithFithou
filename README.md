@@ -17,6 +17,15 @@ Qua đó, đồ án mong muốn đóng góp vào việc phát triển các giả
   - [👩‍💻 Tổng Quan Hệ Thống](#-tổng-quan-hệ-thống)
   - [Cấu trúc dự án](#cấu-trúc-dự-án)
   - [Cài Đặt](#cài-đặt)
+  - [DEMO](#demo)
+    - [1. Trang Đăng Nhập](#1-trang-đăng-nhập)
+  - [](#)
+    - [2. Trang Tổng Quan](#2-trang-tổng-quan)
+    - [3. Danh Sách Tài Khoản](#3-danh-sách-tài-khoản)
+    - [4. Thêm Tài Khoản](#4-thêm-tài-khoản)
+    - [5. Danh Sách Dự Án và Công Việc](#5-danh-sách-dự-án-và-công-việc)
+    - [6. Thêm Dự Án và Công Việc](#6-thêm-dự-án-và-công-việc)
+    - [7. Thêm Người Làm](#7-thêm-người-làm)
   - [🙌 Đóng góp cho dự án](#-đóng-góp-cho-dự-án)
   - [📝 License](#-license)
 
@@ -48,6 +57,7 @@ Backend của nền tảng Appsmith hoạt động như sau:
 - Branch **master**: (default)
   -   [application](./application) - Chứa file json ứng dụng để tải ứng dụng nên nền tảng Appsmith
   -   [appsmith](./appsmith) - Chứa mã nguồn của nền tảng 
+  -   [baserow](./baserow) - Chứa file docker của cơ sở dữ liệu low-code  
   -   [assest](./assets) - Chứa hình ảnh.
   -   [Docs](./docs) - Tài liệu về dự án.
 -  Branch **main**: chứa mã nguồn tài nguyên của application
